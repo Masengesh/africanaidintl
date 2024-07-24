@@ -93,9 +93,6 @@ a:focus {
   color: #ffffff;
 }
 
-.custom_nav-container {
-  padding: 0;
-}
 .custom_nav-container .navbar-nav {
   align-items: center;
 }
@@ -126,7 +123,67 @@ a {
     display: grid !important;
     z-index: 999;
   }
+  .btn-box {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+  }
+  .btn-box .alert-primary {
+    width: 45%;
+  }
+  .btn-box .prim {
+    width: 60%;
+  }
+  .sub_page {
+    width: 100% !important;
+  }
+  .hero_area {
+    width: 100% !important;
+  }
+  .navbar-brand span {
+    font-size: 10px !important;
+  }
+  .button-btm {
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+  }
+  .button-btm .percentage {
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .button-btm .alert-primary {
+    width: 70% !important;
+    padding: 0 !important;
+    gap: 2px;
+  }
+  .navbar-toggler {
+    width: 25px !important;
+    height: 32px !important;
+  }
+  .navbar-toggler span {
+    font-size: 15px !important;
+  }
 }
+.button-btm {
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+.button-btm .percentage {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+}
+.button-btm .alert-primary {
+  width: 20%;
+  padding: 0 !important;
+  gap: 1rem;
+}
+
 .dropdown .button {
   background-color: #08135c;
   color: #fff;
@@ -547,6 +604,7 @@ a {
   display: flex;
   justify-content: center;
   margin-top: 45px;
+  gap: 4rem;
 }
 .job_section .btn-box a {
   display: inline-block;

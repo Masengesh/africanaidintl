@@ -137,7 +137,7 @@ a:focus {
 }
 
 .custom_nav-container {
-  padding: 0;
+  //padding: 0;
 
   .navbar-nav {
     align-items: center;
@@ -175,6 +175,67 @@ a{
   .dropdown:hover .content {
     display: grid !important;
     z-index: 999;
+  }
+  .btn-box{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    .alert-primary{
+      width: 45%;
+    }
+    .prim{
+      width: 60%;
+    }
+  }
+  .sub_page{
+    width: 100% !important;
+  }
+  .hero_area{
+    width: 100% !important;
+  }
+  .navbar-brand{
+    span{
+      font-size: 10px !important;
+    }
+  }
+  .button-btm{
+    width: 100% !important;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2px;
+    .percentage{
+      width: 90%;
+      display: flex;
+      justify-content: center;
+    }
+    .alert-primary{
+      width: 70% !important;
+      padding: 0 !important;
+      gap: 2px;
+    }
+  }
+  .navbar-toggler{
+    width: 25px !important;
+    height: 32px !important;
+    span{
+      font-size: 15px !important;
+    }
+  }
+}
+.button-btm{
+  width: 100%;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+  .percentage{
+    width: 90%;
+    display: flex;
+    justify-content: center;
+  }
+  .alert-primary{
+    width: 20%;
+    padding: 0 !important;
+    gap: 1rem;
   }
 }
 
@@ -700,6 +761,7 @@ a{
     display: flex;
     justify-content: center;
     margin-top: 45px;
+    gap: 4rem;
 
     a {
       @include hero_btn($primary2, $white, 10px, 45px, 5px);
